@@ -1,0 +1,125 @@
+/*
+ * ClaimFlow — Tailwind CSS v4 + shadcn/ui-aligned design tokens.
+ * Palette: crisp cool neutrals + saturated blue primary (trust / readability).
+ *
+ * Semantic colors map to Tailwind utilities: bg-background, text-foreground,
+ * bg-primary, border-border, text-muted-foreground, etc.
+ *
+ * We intentionally ship a single light appearance (color-scheme: light) so
+ * macOS dark mode does not flatten the UI into muddy slate navy.
+ */
+
+@import 'tailwindcss';
+
+/* Base radius aligned with shadcn defaults (10px → rounded-lg) */
+@theme {
+  --radius: 0.625rem;
+
+  /* Core surfaces — airy, slight blue-gray (not sterile white / not navy slab) */
+  --color-background: oklch(0.988 0.008 247);
+  --color-foreground: oklch(0.235 0.036 265);
+
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.235 0.036 265);
+
+  /* Primary — vivid blue (CTA / focus), mirrors common shadcn “default” dashboards */
+  --color-primary: oklch(0.488 0.21 258);
+  --color-primary-foreground: oklch(0.995 0 0);
+
+  /* Secondary — soft blue-gray chips / secondary buttons */
+  --color-secondary: oklch(0.955 0.018 252);
+  --color-secondary-foreground: oklch(0.265 0.045 265);
+
+  /* Muted blocks (insert zones, tertiary surfaces) */
+  --color-muted: oklch(0.962 0.022 248);
+  --color-muted-foreground: oklch(0.48 0.035 265);
+
+  /* Hover / ghost targets */
+  --color-accent: oklch(0.948 0.028 252);
+  --color-accent-foreground: oklch(0.235 0.036 265);
+
+  --color-border: oklch(0.91 0.016 252);
+  --color-input: oklch(0.91 0.016 252);
+  --color-ring: oklch(0.488 0.21 258);
+
+  --color-destructive: oklch(0.55 0.22 25);
+  --color-destructive-foreground: oklch(0.985 0.01 25);
+
+  /* Sidebar / chrome accent strip (optional utilities) */
+  --color-sidebar: oklch(0.982 0.012 247);
+  --color-sidebar-foreground: oklch(0.235 0.036 265);
+  --color-sidebar-border: oklch(0.91 0.016 252);
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  color: var(--color-foreground);
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  /* Layered wash: soft sky glow + neutral base — reads “dashboard”, not flat navy */
+  background-color: var(--color-background);
+  background-image:
+    radial-gradient(
+      ellipse 120% 90% at 50% -25%,
+      oklch(0.93 0.06 252 / 0.45),
+      transparent 52%
+    ),
+    radial-gradient(
+      ellipse 70% 55% at 100% 0%,
+      oklch(0.94 0.04 230 / 0.35),
+      transparent 48%
+    ),
+    linear-gradient(180deg, oklch(0.992 0.005 247) 0%, var(--color-background) 38%);
+}
+
+/* Özet kartı — acil aksiyon için hafif dikey titreşim (≈2s döngü) */
+@keyframes urgency-nudge {
+  0%,
+  82% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(-5px);
+  }
+  88% {
+    transform: translateY(4px);
+  }
+  91% {
+    transform: translateY(-2px);
+  }
+  94%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-urgency-nudge {
+  animation: urgency-nudge 2s ease-in-out infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-urgency-nudge {
+    animation: none;
+  }
+}
+
+#root {
+  min-height: 100dvh;
+}

@@ -1,0 +1,186 @@
+{
+  "title": "Claim Process",
+  "fileNo": "9239182380",
+  "estimatedRemainingTime": "20 Days",
+  "currentStatus": "File Review Process Continues",
+  "policy": {
+    "productLineKey": "motor_comprehensive",
+    "policyNumber": "POL-2025-884210",
+    "validFrom": "01.01.2025",
+    "validTo": "31.12.2025",
+    "policyholderFullName": "Sude Yılmaz",
+    "insuredVehicle": {
+      "plate": "34 ABC 123",
+      "brand": "Volkswagen",
+      "model": "Polo 1.4 TDI 90 Comfortline",
+      "modelYear": "2022",
+      "vin": "WVWZZZ6RZCY123456",
+      "usageTypeKey": "private_passenger"
+    },
+    "coverageSlugKeys": [
+      "collision_damage",
+      "fire_theft",
+      "natural_disaster",
+      "glass_breakage",
+      "mandatory_liab",
+      "substitute_vehicle"
+    ]
+  },
+  "documentRequests": [
+    {
+      "incidentId": "inc001",
+      "docKey": "occupational_certificate",
+      "urgent": true
+    }
+  ],
+  "towingUsage": {
+    "used": 1,
+    "limit": 2
+  },
+  "substituteEntitlement": {
+    "used": 1,
+    "limit": 2
+  },
+  "insuranceLoyalty": {
+    "score": 82,
+    "tierKey": "gold"
+  },
+  "authorizedService": {
+    "workshopName": "VW Yetkili Servis — Metro Oto Kadıköy",
+    "address": "Fenerbahçe Mah. Bağdat Cad. No: 142, Kadıköy / İstanbul",
+    "phones": ["0216 555 12 34", "0850 222 33 44"]
+  },
+  "paymentLedger": [
+    {
+      "date": "2025-09-11",
+      "purposeKey": "towing_user_share",
+      "amount": "450 TL"
+    },
+    {
+      "date": "2025-09-18",
+      "purposeKey": "expert_report_fee",
+      "amount": "0 TL"
+    }
+  ],
+  "fileActivityTimeline": [
+    { "date": "2025-09-28", "eventKey": "repair_in_shop" },
+    { "date": "2025-09-27", "eventKey": "bodywork_friday" },
+    { "date": "2025-09-26", "eventKey": "paint_booth" },
+    { "date": "2025-09-25", "eventKey": "assembly_next_saturday" }
+  ],
+  "incidents": [
+    {
+      "id": "inc001",
+      "occurredAt": "2025-09-10",
+      "statusKey": "under_review",
+      "repair": {
+        "lastUpdated": "2025-09-28",
+        "workshopName": "VW Yetkili Servis — Metro Oto Kadıköy",
+        "summaryKey": "inc001_repair"
+      },
+      "costs": {
+        "lastUpdated": "2025-09-27",
+        "estimateStatusKey": "preliminary",
+        "preliminaryAmount": "42.800 TL + KDV",
+        "finalExpectedBy": "2025-10-12",
+        "summaryKey": "inc001_costs"
+      },
+      "milestones": [
+        { "date": "2025-09-10", "stepKey": "m_notify", "complete": true },
+        { "date": "2025-09-10", "stepKey": "m_tow", "complete": true },
+        { "date": "2025-09-12", "stepKey": "m_expert", "complete": true },
+        { "date": "2025-09-15", "stepKey": "m_service_in", "complete": true },
+        { "date": "2025-09-24", "stepKey": "m_repair_progress", "complete": true },
+        { "date": "2025-10-01", "stepKey": "m_file_review", "complete": false }
+      ]
+    },
+    {
+      "id": "inc002",
+      "occurredAt": "2024-03-22",
+      "statusKey": "closed",
+      "repair": {
+        "lastUpdated": "2024-03-24",
+        "workshopName": "Oto Cam Merkezi — Beşiktaş",
+        "summaryKey": "inc002_repair"
+      },
+      "costs": {
+        "lastUpdated": "2024-03-26",
+        "estimateStatusKey": "final",
+        "preliminaryAmount": "8.450 TL",
+        "summaryKey": "inc002_costs"
+      },
+      "milestones": [
+        { "date": "2024-03-22", "stepKey": "m_glass_open", "complete": true },
+        { "date": "2024-03-23", "stepKey": "m_glass_repair", "complete": true },
+        { "date": "2024-03-26", "stepKey": "m_closed_financial", "complete": true }
+      ]
+    }
+  ],
+  "processDetails": [
+    {
+      "title": "Towing Service",
+      "status": "Completed",
+      "pickupLocation": "Istanbul / Kadikoy",
+      "towingDate": "10/09/2025 14:30"
+    },
+    {
+      "title": "Claim Notification",
+      "status": "Completed",
+      "dateTime": "10/09/2025 16:00",
+      "reportType": "Agreed Minutes",
+      "reasonForDamage": "Collision",
+      "reportingParty": "Grand Auto Services",
+      "contact": "0 (555) 000 00 00"
+    },
+    {
+      "title": "Appraisal",
+      "status": "Report Completed",
+      "expertAssignmentDate": "24.09.2025 10:30",
+      "expertInfo": "John Doe Appraisal Services"
+    },
+    {
+      "title": "Repair Coordination",
+      "status": "Completed",
+      "contact": "0 216 555 55 55, 0 555 555 55 55"
+    },
+    {
+      "title": "Substitute Rental Vehicle",
+      "status": "Completed",
+      "vehicleDuration": "15 Days",
+      "vehicleModel": "Volkswagen - Polo 1.4 TDI 90 Comf.",
+      "extraDuration": "0 days"
+    },
+    {
+      "title": "File Review",
+      "status": "In Progress",
+      "reviewReferralDate": "25.09.2025 09:00",
+      "reviewCompletionDate": "dd/mm/yyyy 00:00"
+    },
+    {
+      "title": "Deduction Reason",
+      "status": "Pending",
+      "actionRequired": "Upload Occupational Certificate",
+      "occupationalDeduction": "1.250 TL",
+      "appreciationDeduction": "3.400 TL",
+      "policyDeductible": "2.500 TL"
+    },
+    {
+      "title": "Financial Summary",
+      "status": "Completed",
+      "nonDamageAmount": "0 TL"
+    },
+    {
+      "title": "Payment Information",
+      "status": "Pending",
+      "paidTo": "Jane Smith",
+      "iban": "TR823179327817000021",
+      "paymentAmount": "45.750 TL",
+      "note": "Payment Refunded"
+    },
+    {
+      "title": "Closed",
+      "status": "Pending",
+      "completionDate": "23.09.2025 23:30"
+    }
+  ]
+}

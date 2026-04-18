@@ -1,0 +1,401 @@
+{
+  "loading": "Loading your claim…",
+  "errorLoad": "Something went wrong while loading data. Please refresh.",
+  "layout": {
+    "brandName": "ClaimFlow",
+    "welcomeInsured": "Welcome, {{name}}",
+    "portalTagline": "Access your claim journey and policy details through this portal.",
+    "heroLead": "Track your claim status and policy information in one place with ClaimFlow.",
+    "reference": "Reference {{fileNo}}"
+  },
+  "homeTimeline": {
+    "incidentTitle": "Active incident timeline",
+    "incidentSubtitle": "Priority open incident — next and completed steps.",
+    "openIncident": "Open details",
+    "incidentProgressLabel": "Progress",
+    "claimProgressLabel": "Progress",
+    "incidentTimelineAria": "Active incident visual timeline",
+    "claimTimelineAria": "Overall claim visual timeline",
+    "claimTitle": "Current claim step",
+    "claimSubtitle": "Where your overall claim file stands right now.",
+    "currentStepHint": "Full timeline and documents are listed below.",
+    "completedClaimSteps": "Completed claim steps ({{count}})",
+    "jumpToFullTimeline": "Jump to full timeline"
+  },
+  "incidents": {
+    "sectionTitle": "Your registered incidents",
+    "sectionSubtitle": "Open an incident to upload photos or reports, add a note for your workshop or insurer, or submit a support request.",
+    "empty": "No incidents are linked to this claim yet.",
+    "openDetail": "Open details",
+    "backToList": "Back to overview",
+    "notFound": "Incident not found",
+    "notFoundBody": "This incident may have been removed or the link is incorrect.",
+    "topBarTitle": "Incident details",
+    "dateLabel": "Date",
+    "statusLabel": "Status",
+    "locationLabel": "Location",
+    "detailSectionTitle": "What happened",
+    "photoTitle": "Scene photos",
+    "photoHint": "Upload clear photos of the damage and surroundings (JPEG or PNG).",
+    "photoDrop": "Drag photos here.",
+    "reportTitle": "Accident report / minutes",
+    "reportHint": "Upload police report, agreed minutes (tutanak), or insurer forms (PDF or image).",
+    "reportDrop": "Drag PDF or images here.",
+    "uploadedList": "Added files",
+    "removeFile": "Remove",
+    "chooseFiles": "Choose files",
+    "documentsSectionTitle": "Documents",
+    "documentsSectionSubtitle": "Scene photos and official reports.",
+    "partnerNoteTitle": "Note for workshop or insurer",
+    "partnerNoteHint": "Add anything you want sent to the authorised workshop or your insurance company.",
+    "partnerNotePlaceholder": "e.g. appointment change, missing document, or message for the workshop…",
+    "partnerNoteSubmit": "Save note",
+    "partnerNoteSuccess": "Your note was saved and flagged for this incident record.",
+    "partnerNoteAnother": "Write another note",
+    "supportTitle": "Support request",
+    "supportHint": "Describe what you need; we route this to your claims handler.",
+    "supportCategory": "Topic",
+    "supportCategoryPlaceholder": "Select a topic",
+    "supportCategoryGeneral": "General question",
+    "supportCategoryDocs": "Documents & uploads",
+    "supportCategoryPayment": "Payment / settlement",
+    "supportCategoryOther": "Other",
+    "supportMessage": "Your message",
+    "supportMessagePlaceholder": "Briefly describe what you need or what went wrong.",
+    "supportAnother": "Send another request",
+    "supportSubmit": "Submit request",
+    "supportSuccess": "Your request was submitted. We’ll get back to you using your registered contact details.",
+    "supportMessageRequired": "Please enter a short description.",
+    "status": {
+      "registered": "Registered",
+      "documents_pending": "Documents pending",
+      "under_review": "Under review",
+      "closed": "Closed"
+    },
+    "overview": {
+      "pageIntroTitle": "Status summary",
+      "pageIntroSubtitle": "Service and costs side by side; next step below. Expand completed steps when you need detail.",
+      "completedStepsLabel": "Completed steps ({{count}})",
+      "nextSectionAria": "Next step",
+      "vehicleCardTitle": "Vehicle & authorised workshop",
+      "costsCardTitle": "Costs & dates",
+      "lastUpdatedLabel": "Information last updated",
+      "workshopLabel": "Workshop",
+      "estimateLabel": "Estimate status",
+      "preliminaryAmountLabel": "Preliminary estimate",
+      "finalByLabel": "Target date for final figures",
+      "finalByHint": "Final amounts are confirmed after file review and final workshop invoices.",
+      "timelineTitle": "Process timeline",
+      "timelineSubtitle": "Completed steps and what’s next, in chronological order.",
+      "stepDone": "Completed",
+      "stepPending": "In progress",
+      "nextFocusTitle": "Current focus",
+      "nextFocusSubtitle": "The next milestone we’re working through for this incident.",
+      "allComplete": "All steps for this incident are complete.",
+      "timelineVisualTitle": "Your journey",
+      "timelineProgressLabel": "Progress",
+      "timelineAria": "Incident journey timeline"
+    },
+    "costEstimate": {
+      "pending": "Final amount pending",
+      "preliminary": "Preliminary estimate shared — final amount confirmed with file approval",
+      "final": "Final amounts and payment lines are confirmed"
+    },
+    "steps": {
+      "m_notify": {
+        "title": "Loss notification recorded",
+        "detail": "Policy and vehicle details were validated and linked to your file."
+      },
+      "m_tow": {
+        "title": "Towing to authorised workshop",
+        "detail": "Your vehicle was delivered to the authorised service partner."
+      },
+      "m_expert": {
+        "title": "Appraisal completed",
+        "detail": "Damage items and repair scope were reported by the expert."
+      },
+      "m_service_in": {
+        "title": "Accepted at authorised workshop",
+        "detail": "Repair queue and parts process started."
+      },
+      "m_repair_progress": {
+        "title": "Repair in progress",
+        "detail": "Bumper and related body work is underway at the workshop."
+      },
+      "m_file_review": {
+        "title": "File review & final settlement",
+        "detail": "Final amounts, deductibles and payment lines will be confirmed at this stage."
+      },
+      "m_glass_open": {
+        "title": "Glass damage logged",
+        "detail": "An appointment was booked at an authorised glass centre."
+      },
+      "m_glass_repair": {
+        "title": "Glass repair completed",
+        "detail": "Repair was completed at the authorised glass centre."
+      },
+      "m_closed_financial": {
+        "title": "Payment & closure",
+        "detail": "Settlement / payment completed and the incident file closed."
+      }
+    },
+    "summaries": {
+      "inc001_repair": "Your vehicle is currently at an authorised workshop for repair. Front bumper and related trim work are ongoing. You’ll be notified by SMS or email when release and QC are complete.",
+      "inc001_costs": "The preliminary figure is based on appraisal and workshop quotes. The final payable amount — around the target date shown — will appear after underwriting review and final invoices; deductibles and limits are applied at that stage.",
+      "inc002_repair": "Glass repair is complete; no further workshop work is pending.",
+      "inc002_costs": "Costs are finalised and settled under your policy. No further charges are expected for this incident."
+    },
+    "byId": {
+      "inc001": {
+        "title": "Parking-lot collision",
+        "summary": "Minor damage to the front bumper while reversing.",
+        "location": "Kadıköy, Istanbul",
+        "detailBody": "Low-speed collision with a stationary vehicle in an outdoor car park. Photos were taken at the scene and the other party’s details were exchanged."
+      },
+      "inc002": {
+        "title": "Glass damage (past claim)",
+        "summary": "Windscreen chip repaired under policy — case closed.",
+        "location": "Beşiktaş, Istanbul",
+        "detailBody": "Repair completed at an authorised glass centre. No further documents are required for this incident."
+      }
+    }
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "tr": "Turkish",
+    "enShort": "EN",
+    "trShort": "TR"
+  },
+  "policy": {
+    "productSectionTitle": "Your policy & insured asset",
+    "coverageSectionTitle": "Coverage benefits under this policy",
+    "coverageIntro": "Under your active policy you may benefit from the following protections (subject to limits, deductibles and general conditions).",
+    "productLabel": "Product",
+    "policyNumberLabel": "Policy number",
+    "periodLabel": "Policy period",
+    "vehicleTitle": "Insured vehicle",
+    "plateLabel": "Registration plate",
+    "brandLabel": "Brand",
+    "modelLabel": "Model / trim",
+    "yearLabel": "Model year",
+    "vinLabel": "VIN",
+    "usageLabel": "Usage type",
+    "periodValue": "{{from}} — {{to}}",
+    "productLines": {
+      "motor_comprehensive": "Motor comprehensive (casco) insurance"
+    },
+    "usageTypes": {
+      "private_passenger": "Private passenger car"
+    },
+    "coverageItems": {
+      "collision_damage": "Collision, overturning and collision-type damage to your vehicle",
+      "fire_theft": "Fire, lightning, explosion and theft",
+      "natural_disaster": "Natural events such as flood, hail or storm (as defined in your policy)",
+      "glass_breakage": "Glass breakage cover where included",
+      "mandatory_liab": "Motor third-party liability within statutory limits",
+      "substitute_vehicle": "Substitute rental vehicle benefit where eligible (duration per policy rules)"
+    }
+  },
+  "summary": {
+    "fixtureCurrentStatus": "File review process continues",
+    "fixtureEta": "{{count}} days",
+    "currentStatus": "Current status",
+    "estimatedRemaining": "Estimated wait",
+    "whatToDo": "Your action",
+    "hintStatus": "Overall file status",
+    "hintEta": "Workload-based estimate",
+    "uploadNow": "Upload now",
+    "hintActionFollow": "Details in the process below",
+    "noAction": "Nothing urgent right now"
+  },
+  "documentRequests": {
+    "docs": {
+      "occupational_certificate": "Occupational / employment certificate"
+    }
+  },
+  "timeline": {
+    "title": "Your file process",
+    "subtitle": "These steps reflect your overall claim file. Each incident’s repair or expert timeline lives on that incident’s page.",
+    "assistantHint": "Ask about your claim or leave a note using the assistant button in the corner.",
+    "ariaSummary": "Claim summary answers",
+    "ariaTimeline": "Claim timeline"
+  },
+  "fileProcess": {
+    "towingTitle": "Towing service",
+    "towingUsed": "Used {{count}} time(s)",
+    "towingRemaining": "{{count}} use(s) remaining",
+    "towingEntitled": "{{limit}} uses included in your policy",
+    "paymentsTitle": "Payments",
+    "paymentCount": "{{count}} entries",
+    "activityStripEyebrow": "File snapshot",
+    "activityStripTitle": "Recent updates",
+    "activityStripAria": "Claim activity timeline",
+    "workshopTitle": "Authorized workshop",
+    "appointmentLabel": "Appointment or message",
+    "appointmentPlaceholder": "Preferred date/time or a short request…",
+    "appointmentSubmit": "Send request",
+    "appointmentBookedLine1": "Your appointment request has been sent.",
+    "appointmentBookedLine2": "It has been added to the workshop calendar.",
+    "appointmentCallbackLine1": "Your appointment request has been received.",
+    "appointmentCallbackLine2": "Availability for your preferred time isn’t confirmed yet; a specialist will contact you shortly to finalize it.",
+    "metricsZoneHint": "These cards summarize towing and substitute entitlements, payments made, and your insurer score.",
+    "substituteTitle": "Substitute vehicle",
+    "substituteUsed": "{{count}} use(s)",
+    "substituteRemaining": "{{count}} entitlement(s) left",
+    "substituteLimit": "{{limit}} included in policy",
+    "substituteNone": "No substitute use on this file",
+    "loyaltyTitle": "Insurance score",
+    "loyaltyScoreLabel": "{{score}} / 100",
+    "loyaltyHint": "Updated based on claim-free years, payments, and similar factors.",
+    "loyaltyTier": {
+      "gold": "Gold tier",
+      "silver": "Silver tier",
+      "bronze": "Standard tier"
+    },
+    "paymentsCompact": "{{count}} entries",
+    "paymentsMore": "+{{count}} more",
+    "paymentPurpose": {
+      "towing_user_share": "Towing co-pay / usage fee",
+      "expert_report_fee": "Expert report (no charge applied)"
+    },
+    "activityEvents": {
+      "repair_in_shop": "Vehicle is at the authorized workshop; repair in progress.",
+      "bodywork_friday": "Friday: bumper removed, filled, and painted.",
+      "paint_booth": "Final checks in the paint booth.",
+      "assembly_next_saturday": "Saturday: moving on to assembly and final inspection."
+    }
+  },
+  "explain": {
+    "button": "Explain with AI",
+    "dialogTitle": "Plain-language explanation",
+    "dialogSubtitle": "A quick summary of what this step means in everyday language.",
+    "titleSuffix": " — {{stepTitle}}"
+  },
+  "aside": {
+    "aria": "Help",
+    "designTitle": "How to use this screen",
+    "designBody": "The three summary cards show your latest status, estimated remaining time, and anything you need to do next. The timeline below walks through every stage of your claim.",
+    "touchNote": "Buttons and timeline controls are sized for comfortable use on phones and tablets.",
+    "dynamicNote": "Notes you add stay in your current session so you can mark reminders for yourself along the journey."
+  },
+  "insert": {
+    "title": "Insert between steps",
+    "subtitle": "Add personal notes or reference an attachment alongside the timeline.",
+    "noteLabel": "Information note",
+    "notePlaceholder": "Add context for your records…",
+    "saveNote": "Save note",
+    "attachmentLabel": "Additional attachment",
+    "attachmentHelp": "Your selection appears only in this browser session and is not sent to anyone else.",
+    "kindNote": "Information note",
+    "kindAttachment": "Additional attachment",
+    "removeAria": "Remove insertion",
+    "invalidNote": "Invalid note."
+  },
+  "validation": {
+    "noteRequired": "Please enter a short note.",
+    "noteTooLong": "Note is too long."
+  },
+  "processStep": {
+    "description": "Summary information for this stage of your claim."
+  },
+  "fields": {
+    "pickupLocation": "Pickup location",
+    "towingDate": "Towing date",
+    "dateTime": "Date / time",
+    "reportType": "Report type",
+    "reasonForDamage": "Reason for damage",
+    "reportingParty": "Reporting party",
+    "contact": "Contact",
+    "expertAssignmentDate": "Expert assignment date",
+    "expertInfo": "Expert",
+    "vehicleDuration": "Vehicle duration",
+    "vehicleModel": "Vehicle model",
+    "extraDuration": "Extra duration",
+    "reviewReferralDate": "Referral date",
+    "reviewCompletionDate": "Completion date",
+    "actionRequired": "Action required",
+    "occupationalDeduction": "Occupational deduction",
+    "appreciationDeduction": "Appreciation deduction",
+    "policyDeductible": "Policy deductible",
+    "nonDamageAmount": "Non-damage amount",
+    "paidTo": "Paid to",
+    "iban": "IBAN",
+    "paymentAmount": "Payment amount",
+    "note": "Note",
+    "completionDate": "Completion date"
+  },
+  "stepTitles": {
+    "claimProcess": "Your claim overview",
+    "towingService": "Towing Service",
+    "claimNotification": "Claim Notification",
+    "appraisal": "Appraisal",
+    "repairCoordination": "Repair Coordination",
+    "substituteRentalVehicle": "Substitute Rental Vehicle",
+    "fileReview": "File Review",
+    "deductionReason": "Deduction Reason",
+    "financialSummary": "Financial Summary",
+    "paymentInformation": "Payment Information",
+    "closed": "Closed"
+  },
+  "status": {
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "pending": "Pending",
+    "reportCompleted": "Report Completed"
+  },
+  "docAnalyzer": {
+    "title": "AI-assisted document check",
+    "subtitle": "We review your upload before it is forwarded for underwriting.",
+    "chooseFile": "Choose file",
+    "analyzing": "Analyzing…",
+    "accepted": "Result: Accepted",
+    "rejected": "Result: Needs attention",
+    "feedbackAccepted": "Your file looks acceptable: the name suggests an occupational/certificate document and the format is PDF.",
+    "feedbackRejected": "We couldn’t confirm an occupational certificate from this file name. Please choose a clearer name or upload a well-labeled PDF."
+  },
+  "apiActions": {
+    "uploadOccupationalCertificate": "Upload Occupational Certificate"
+  },
+  "aiExplanation": {
+    "towingService": "Your vehicle was collected and moved to an agreed location. Insurers confirm pickup details and the timeline for repair or assessment.",
+    "claimNotification": "The claim is formally registered. The reporting method, cause, and parties are recorded so the insurer can route the case to appraisal and repair partners.",
+    "appraisal": "An appraiser evaluates damage and repair scope. The report drives cost estimates, repair authorization, and any applicable deductions.",
+    "repairCoordination": "The repair network is aligned with coverage and timelines. Contact numbers help you reschedule or clarify workshop progress.",
+    "substituteRentalVehicle": "If covered, a temporary vehicle may be provided for an approved duration. Extra days beyond the allowance may incur charges.",
+    "fileReview": "Underwriters review documents and estimates before payment or closure. Additional evidence may be requested during this stage.",
+    "deductionReason": "Deductions may reflect policy excess, depreciation, or missing documents (for example an occupational certificate). Upload what is requested to avoid delays.",
+    "financialSummary": "Non-damage amounts and settlements are summarized before payment is scheduled or refunded.",
+    "paymentInformation": "Payment details show who is paid, how much, and any notes such as refunds or corrections.",
+    "closed": "The claim reaches a terminal state once payments and paperwork are finalized.",
+    "fallback": "{{title}} is an important stage in your claim. Status “{{status}}” reflects where that stage stands today."
+  },
+  "assistant": {
+    "title": "Claim assistant",
+    "subtitle": "Available around the clock to answer questions about your claim in clear language.",
+    "welcome": "Hello — I’m your ClaimFlow assistant. Ask me about your claim status, timelines, documents we need, deductions, or payments.",
+    "placeholder": "Ask about your claim…",
+    "send": "Send",
+    "thinking": "Typing…",
+    "openChat": "Open assistant",
+    "closeChat": "Close",
+    "fabLabel": "Open claim assistant",
+    "quickSuggestionsTitle": "Suggested questions",
+    "quickSuggestion1": "What is my claim status right now?",
+    "quickSuggestion2": "Roughly how long until my claim is settled?",
+    "quickSuggestion3": "Which documents do you still need from me?",
+    "quickSuggestion4": "How were the deductions on my claim calculated?",
+    "quickSuggestion5": "When will my payment be issued?",
+    "quickSuggestion6": "Where do I find my claim reference number?",
+    "replies": {
+      "greeting": "Hello — I’m glad to help. Ask where your claim stands, what we need from you next, or anything about timelines and payments.",
+      "status": "Your latest position is summarized in the cards at the top (“Current status” and “Estimated time remaining”). The timeline lists every completed and upcoming step.",
+      "time": "The ETA card shows our best estimate based on current workload. It may change if we need more documents or if review queues shift.",
+      "document": "When we request a document (for example an occupational certificate), use the upload area on that step. PDF or clear images work best; a descriptive file name speeds up review.",
+      "deduction": "Deductions usually reflect your deductible, depreciation, or policy terms. Amounts appear on the relevant step card and follow your policy wording.",
+      "payment": "The payment card shows payee, IBAN, amount, and any notes. It updates whenever we adjust the settlement.",
+      "reference": "Your claim reference is shown on the label near the top of the page — please quote it when you contact us.",
+      "default": "For the most accurate answer, check the summary cards and timeline first. You can ask again using words like status, time, document, deduction, or payment."
+    }
+  }
+}

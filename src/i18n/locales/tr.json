@@ -1,0 +1,401 @@
+{
+  "loading": "Talebiniz yükleniyor…",
+  "errorLoad": "Veriler yüklenirken bir sorun oluştu. Lütfen sayfayı yenileyin.",
+  "layout": {
+    "brandName": "ClaimFlow",
+    "welcomeInsured": "Hoş geldin, {{name}}",
+    "portalTagline": "Hasar süreci ve poliçe bilgilerinize bu portal üzerinden ulaşın.",
+    "heroLead": "Hasar dosyanızın güncel durumunu ve poliçe bilgilerinizi ClaimFlow ile tek ekrandan takip edin.",
+    "reference": "Referans {{fileNo}}"
+  },
+  "homeTimeline": {
+    "incidentTitle": "Aktif kaza süreci",
+    "incidentSubtitle": "Öncelik verilen açık kaza kaydı — sıradaki ve tamamlanan adımlar.",
+    "openIncident": "Detaya git",
+    "incidentProgressLabel": "İlerleme",
+    "claimProgressLabel": "İlerleme",
+    "incidentTimelineAria": "Aktif kaza süreci görsel zaman çizelgesi",
+    "claimTimelineAria": "Genel talep süreci görsel zaman çizelgesi",
+    "claimTitle": "Talepte güncel adım",
+    "claimSubtitle": "Genel hasar dosyanızda şu an üzerinde çalışılan adım.",
+    "currentStepHint": "Ek ayrıntılar ve zaman çizelgesinin tamamı aşağıdadır.",
+    "completedClaimSteps": "Tamamlanan talep adımları ({{count}})",
+    "jumpToFullTimeline": "Tam sürece git"
+  },
+  "incidents": {
+    "sectionTitle": "Kayıtlı kazalarınız",
+    "sectionSubtitle": "Bir kaydı açarak fotoğraf veya tutanak yükleyebilir, servis ya da sigorta için not ekleyebilir veya destek talebi oluşturabilirsiniz.",
+    "empty": "Bu talebe bağlı henüz kayıtlı bir kaza yok.",
+    "openDetail": "Detayı aç",
+    "backToList": "Özete dön",
+    "notFound": "Kayıt bulunamadı",
+    "notFoundBody": "Bu kayıt kaldırılmış olabilir veya bağlantı hatalıdır.",
+    "topBarTitle": "Kaza detayı",
+    "dateLabel": "Tarih",
+    "statusLabel": "Durum",
+    "locationLabel": "Konum",
+    "detailSectionTitle": "Ne oldu?",
+    "photoTitle": "Olay yeri fotoğrafları",
+    "photoHint": "Hasarın ve çevrenin net göründüğü fotoğrafları yükleyin (JPEG veya PNG).",
+    "photoDrop": "Fotoğrafları buraya sürükleyin.",
+    "reportTitle": "Tutanak / resmi rapor",
+    "reportHint": "Polis tutanağı, anlaşmalı tutanak veya sigorta formlarını yükleyin (PDF veya görsel).",
+    "reportDrop": "PDF veya görseli buraya sürükleyin.",
+    "uploadedList": "Eklenen dosyalar",
+    "removeFile": "Kaldır",
+    "chooseFiles": "Dosya seç",
+    "documentsSectionTitle": "Belgeler",
+    "documentsSectionSubtitle": "Olay yeri fotoğrafı ve tutanak ekleri.",
+    "partnerNoteTitle": "Servis veya sigorta için not",
+    "partnerNoteHint": "Yetkili servis veya sigorta şirketinize iletilmesini istediğiniz bilgiyi buraya yazın.",
+    "partnerNotePlaceholder": "Örn. randevu değişikliği, eksik belge veya servise iletmek istediğiniz açıklama…",
+    "partnerNoteSubmit": "Notu kaydet",
+    "partnerNoteSuccess": "Notunuz kaydedildi ve kaza kaydınıza iletilmek üzere işaretlendi.",
+    "partnerNoteAnother": "Yeni not yaz",
+    "supportTitle": "Destek talebi",
+    "supportHint": "İhtiyacınızı kısaca yazın; talebiniz ilgili temsilciye yönlendirilir.",
+    "supportCategory": "Konu",
+    "supportCategoryPlaceholder": "Konu seçin",
+    "supportCategoryGeneral": "Genel soru",
+    "supportCategoryDocs": "Belge ve yüklemeler",
+    "supportCategoryPayment": "Ödeme / uzlaşma",
+    "supportCategoryOther": "Diğer",
+    "supportMessage": "Mesajınız",
+    "supportMessagePlaceholder": "Kısaca ihtiyacınızı veya sorunuzu yazın.",
+    "supportAnother": "Yeni talep gönder",
+    "supportSubmit": "Talebi gönder",
+    "supportSuccess": "Talebiniz iletildi. Kayıtlı iletişim bilgileriniz üzerinden size döneceğiz.",
+    "supportMessageRequired": "Lütfen kısa bir açıklama girin.",
+    "status": {
+      "registered": "Kayıtlı",
+      "documents_pending": "Belge bekleniyor",
+      "under_review": "İncelemede",
+      "closed": "Kapandı"
+    },
+    "overview": {
+      "pageIntroTitle": "Durum özeti",
+      "pageIntroSubtitle": "Servis ve tutar bilgisi yan yana; sıradaki adım hemen altında. Tamamlananları isteğe bağlı olarak açın.",
+      "completedStepsLabel": "Tamamlanan adımlar ({{count}})",
+      "nextSectionAria": "Sıradaki işlem",
+      "vehicleCardTitle": "Araç & yetkili servis",
+      "costsCardTitle": "Tutarlar & tarihler",
+      "lastUpdatedLabel": "Bilgi güncellemesi",
+      "workshopLabel": "Servis",
+      "estimateLabel": "Tutar durumu",
+      "preliminaryAmountLabel": "Ön hesaplama",
+      "finalByLabel": "Kesin tutar için hedef",
+      "finalByHint": "Dosya incelemesi ve servis kesin faturaları sonrası netleşir.",
+      "timelineTitle": "Süreç zaman çizelgesi",
+      "timelineSubtitle": "Tamamlanan adımlar ve sıradaki işlem tarih sırasıyla.",
+      "stepDone": "Tamamlandı",
+      "stepPending": "Devam ediyor",
+      "nextFocusTitle": "Şu anda odak",
+      "nextFocusSubtitle": "Sıradaki işlem ve takip etmeniz gereken başlıca adım.",
+      "allComplete": "Bu kayıt için süreç tamamlandı.",
+      "timelineVisualTitle": "Süreç yolu",
+      "timelineProgressLabel": "İlerleme",
+      "timelineAria": "Kaza kaydı süreç zaman çizelgesi"
+    },
+    "costEstimate": {
+      "pending": "Kesin tutar bekleniyor",
+      "preliminary": "Ön hesaplama paylaşıldı — kesin tutar dosya onayıyla netleşir",
+      "final": "Kesin tutar ve ödeme kalemleri netleşti"
+    },
+    "steps": {
+      "m_notify": {
+        "title": "Hasar bildirimi kaydedildi",
+        "detail": "Poliçe ve araç bilgileriniz doğrulandı; kayıt dosyanıza işlendi."
+      },
+      "m_tow": {
+        "title": "Çekici ile yetkili servise sevk",
+        "detail": "Araç anlaşmalı çekici ile yetkili servise teslim edildi."
+      },
+      "m_expert": {
+        "title": "Ekspertiz raporu tamamlandı",
+        "detail": "Hasar kalemleri ve onarım kapsamı eksper tarafından raporlandı."
+      },
+      "m_service_in": {
+        "title": "Yetkili serviste kabul",
+        "detail": "Onarım sırası ve yedek parça süreci başladı."
+      },
+      "m_repair_progress": {
+        "title": "Onarım devam ediyor",
+        "detail": "Ön tampon ve ilgili kaporta işlemleri serviste yürütülüyor."
+      },
+      "m_file_review": {
+        "title": "Dosya incelemesi ve tutar kesinleştirme",
+        "detail": "Kesin tutar, muafiyetler ve ödeme kalemleri bu aşamada netleşecektir."
+      },
+      "m_glass_open": {
+        "title": "Cam hasarı kaydı",
+        "detail": "Ön cam çipi için yetkili serviste randevu oluşturuldu."
+      },
+      "m_glass_repair": {
+        "title": "Cam onarımı tamamlandı",
+        "detail": "Onarım yetkili cam merkezinde tamamlandı."
+      },
+      "m_closed_financial": {
+        "title": "Ödeme ve dosya kapaması",
+        "detail": "Tutar mahsup / ödeme işlemi tamamlandı; dosya kapandı."
+      }
+    },
+    "summaries": {
+      "inc001_repair": "Aracınız şu anda yetkili serviste onarımdadır. Ön tampon ve çevre aksam işlemleri sürmektedir. Servis çıkışı ve kalite kontrol tamamlandığında size SMS veya e-posta ile haber verilecektir.",
+      "inc001_costs": "Güncel ön hesaplama, ekspertiz ve servis tekliflerine göre oluşturulmuştur. Kesin ödeme tutarı, dosya incelemesi ve servis kesin faturaları sonrası — hedef tarih civarında — sistemde görüntülenecek; muafiyet ve teminat limitleri bu aşamada düşülür.",
+      "inc002_repair": "Cam onarımı tamamlanmıştır; başka bir servis işlemi yoktur.",
+      "inc002_costs": "Onarım bedeli kesinleşmiş ve poliçe kapsamında kapatılmıştır. Bu kayıt için yeni bir tutar beklenmemektedir."
+    },
+    "byId": {
+      "inc001": {
+        "title": "Otopark çarpışması",
+        "summary": "Geri manevra sırasında ön tamponda hafif hasar.",
+        "location": "İstanbul, Kadıköy",
+        "detailBody": "Açık otoparkta düşük hızla sabit bir araca çarpma. Olay yerinde fotoğraf çekildi ve karşı tarafın bilgileri değiş tokuş edildi."
+      },
+      "inc002": {
+        "title": "Cam hasarı (önceki kayıt)",
+        "summary": "Ön cam çipi poliçe kapsamında onarıldı — dosya kapandı.",
+        "location": "İstanbul, Beşiktaş",
+        "detailBody": "Yetkili cam servisinde onarım tamamlandı. Bu kayıt için ek belge gerekmiyor."
+      }
+    }
+  },
+  "language": {
+    "label": "Dil",
+    "en": "İngilizce",
+    "tr": "Türkçe",
+    "enShort": "EN",
+    "trShort": "TR"
+  },
+  "policy": {
+    "productSectionTitle": "Poliçeniz ve sigortalı varlık",
+    "coverageSectionTitle": "Poliçe kapsamındaki haklarınız",
+    "coverageIntro": "Yürürlükteki poliçeniz kapsamında aşağıdaki teminat ve hizmetlerden yararlanabilirsiniz (limitler, muafiyetler ve genel şartlara tabidir).",
+    "productLabel": "Ürün",
+    "policyNumberLabel": "Poliçe numarası",
+    "periodLabel": "Poliçe dönemi",
+    "vehicleTitle": "Sigortalı araç",
+    "plateLabel": "Plaka",
+    "brandLabel": "Marka",
+    "modelLabel": "Model / donanım",
+    "yearLabel": "Model yılı",
+    "vinLabel": "Şasi numarası (VIN)",
+    "usageLabel": "Kullanım şekli",
+    "periodValue": "{{from}} — {{to}}",
+    "productLines": {
+      "motor_comprehensive": "Kasko (motor branşı kapsamlı) sigortası"
+    },
+    "usageTypes": {
+      "private_passenger": "Hususi otomobil"
+    },
+    "coverageItems": {
+      "collision_damage": "Çarpma, çarpışma ve devrilme nedeniyle aracınızdaki hasarlar",
+      "fire_theft": "Yangın, yıldırım, infilak ve hırsızlık teminatları",
+      "natural_disaster": "Sel, dolu, fırtına vb. doğal afetler (poliçe şartlarında tanımlandığı şekilde)",
+      "glass_breakage": "Poliçede yer alan cam kırılması teminatı",
+      "mandatory_liab": "Zorunlu mali sorumluluk (trafik) limitleri dahilinde",
+      "substitute_vehicle": "İkame araç teminatı (poliçe kurallarına uygun süre ve koşullarla)"
+    }
+  },
+  "summary": {
+    "fixtureCurrentStatus": "Dosya incelemesi devam ediyor",
+    "fixtureEta": "{{count}} gün",
+    "currentStatus": "Güncel durum",
+    "estimatedRemaining": "Tahmini kalan süre",
+    "whatToDo": "Yapmanız gereken",
+    "hintStatus": "Dosya durumu özeti",
+    "hintEta": "İş yüküne göre öngörü",
+    "uploadNow": "Hemen yükle",
+    "hintActionFollow": "Ayrıntı aşağıdaki süreçte",
+    "noAction": "Şu an acil işlem yok"
+  },
+  "documentRequests": {
+    "docs": {
+      "occupational_certificate": "Mesleki / çalışma belgesi"
+    }
+  },
+  "timeline": {
+    "title": "Dosya süreciniz",
+    "subtitle": "Bu adımlar hasar dosyanızın genel ilerleyişidir. Belirli bir kazanın servis veya ekspertiz süreci ilgili kaza kaydı sayfasındadır.",
+    "assistantHint": "Süreç ve dosyanız hakkında soru sorabilir veya not bırakabilirsiniz — ekranın köşesindeki yardımcıyı açarak.",
+    "ariaSummary": "Talep özeti yanıtları",
+    "ariaTimeline": "Talep zaman çizelgesi"
+  },
+  "fileProcess": {
+    "towingTitle": "Çekici hizmeti",
+    "towingUsed": "{{count}} kez kullanıldı",
+    "towingRemaining": "{{count}} kullanım hakkınız kaldı",
+    "towingEntitled": "Poliçede tanımlı toplam {{limit}} kullanım",
+    "paymentsTitle": "Ödemeler",
+    "paymentCount": "{{count}} kayıt",
+    "activityStripEyebrow": "Dosya özeti",
+    "activityStripTitle": "Son gelişmeler",
+    "activityStripAria": "Dosya gelişme zaman çizelgesi",
+    "workshopTitle": "Yetkili servis",
+    "appointmentLabel": "Randevu veya mesaj",
+    "appointmentPlaceholder": "Uygun gün/saat veya kısa talebinizi yazın…",
+    "appointmentSubmit": "Talebi ilet",
+    "appointmentBookedLine1": "Randevu talebiniz iletildi.",
+    "appointmentBookedLine2": "Randevunuz servis takvimine işlenmiştir.",
+    "appointmentCallbackLine1": "Randevu talebiniz alındı.",
+    "appointmentCallbackLine2": "Belirttiğiniz tarih için uygunluk net değil; randevuyu kesinleştirmek için yetkili bir temsilci en kısa sürede sizinle görüşecektir.",
+    "metricsZoneHint": "Çekici ve ikame hakları, ödemeler ile sigorta puanınız bu kartlarda özetlenir.",
+    "substituteTitle": "İkame araç",
+    "substituteUsed": "{{count}} kullanım",
+    "substituteRemaining": "{{count}} hak kaldı",
+    "substituteLimit": "Poliçede {{limit}} hak",
+    "substituteNone": "Bu dosyada ikame kullanımı yok",
+    "loyaltyTitle": "Sigorta puanı",
+    "loyaltyScoreLabel": "{{score}} / 100",
+    "loyaltyHint": "Hasarsızlık ve ödeme düzeni gibi unsurlarla güncellenir.",
+    "loyaltyTier": {
+      "gold": "Altın segment",
+      "silver": "Gümüş segment",
+      "bronze": "Standart segment"
+    },
+    "paymentsCompact": "{{count}} işlem",
+    "paymentsMore": "+{{count}} kayıt daha",
+    "paymentPurpose": {
+      "towing_user_share": "Çekici katılım / kullanım payı",
+      "expert_report_fee": "Ekspertiz raporu (ücret yansımadı)"
+    },
+    "activityEvents": {
+      "repair_in_shop": "Araç yetkili serviste; onarım devam ediyor.",
+      "bodywork_friday": "Cuma: Tampon söküldü, macunlandı ve boyandı.",
+      "paint_booth": "Boya kabininde son kontroller yapılıyor.",
+      "assembly_next_saturday": "Cumartesi takma ve son kontrol adımına geçilecek."
+    }
+  },
+  "explain": {
+    "button": "Yapay zeka ile açıkla",
+    "dialogTitle": "Sade dilde açıklama",
+    "dialogSubtitle": "Bu adımın ne anlama geldiğini teknik terimleri sadeleştirerek özetler.",
+    "titleSuffix": " — {{stepTitle}}"
+  },
+  "aside": {
+    "aria": "Yardım",
+    "designTitle": "Bu ekranı nasıl kullanırsınız?",
+    "designBody": "Üstteki üç kart güncel durumu, tahmini süreyi ve sıradaki işlemleri özetler. Aşağıdaki zaman çizelgesinde talebinizin tüm aşamalarını görebilirsiniz.",
+    "touchNote": "Telefon veya tablette kolay kullanım için dokunma alanları geniş tutulmuştur.",
+    "dynamicNote": "Eklediğiniz notlar yalnızca sizin oturumunuzda görünür; süreci kendi hatırlatmalarınızla işaretleyebilirsiniz."
+  },
+  "insert": {
+    "title": "Adımlar arasına ekleyin",
+    "subtitle": "Zaman çizelgesine kişisel not veya ek dosya bilgisi ekleyebilirsiniz.",
+    "noteLabel": "Bilgi notu",
+    "notePlaceholder": "Kayıtlarınız için kısa bir bağlam ekleyin…",
+    "saveNote": "Notu kaydet",
+    "attachmentLabel": "Ek dosya",
+    "attachmentHelp": "Ek seçimi bu tarayıcı oturumunda görünür; karşı tarafa iletilmez.",
+    "kindNote": "Bilgi notu",
+    "kindAttachment": "Ek dosya",
+    "removeAria": "Eklemeyi kaldır",
+    "invalidNote": "Geçersiz not."
+  },
+  "validation": {
+    "noteRequired": "Lütfen kısa bir not girin.",
+    "noteTooLong": "Not çok uzun."
+  },
+  "processStep": {
+    "description": "Bu süreç adımına ait özet bilgiler."
+  },
+  "fields": {
+    "pickupLocation": "Alım yeri",
+    "towingDate": "Çekici tarihi",
+    "dateTime": "Tarih / saat",
+    "reportType": "Rapor türü",
+    "reasonForDamage": "Hasar nedeni",
+    "reportingParty": "Bildirimi yapan taraf",
+    "contact": "İletişim",
+    "expertAssignmentDate": "Ekspertiz atama tarihi",
+    "expertInfo": "Eksper / ekspertiz kuruluşu",
+    "vehicleDuration": "Araç süresi",
+    "vehicleModel": "Araç modeli",
+    "extraDuration": "Ek süre",
+    "reviewReferralDate": "Sevk tarihi",
+    "reviewCompletionDate": "Tamamlanma tarihi",
+    "actionRequired": "Gerekli işlem",
+    "occupationalDeduction": "Mesleki kesinti",
+    "appreciationDeduction": "Amortisman / değer kaybı kesintisi",
+    "policyDeductible": "Poliçe muafiyeti",
+    "nonDamageAmount": "Hasar dışı tutar",
+    "paidTo": "Ödeme alıcısı",
+    "iban": "IBAN",
+    "paymentAmount": "Ödeme tutarı",
+    "note": "Not",
+    "completionDate": "Kapanış tarihi"
+  },
+  "stepTitles": {
+    "claimProcess": "Dosyanızın özeti",
+    "towingService": "Çekici hizmeti",
+    "claimNotification": "Talep bildirimi",
+    "appraisal": "Ekspertiz",
+    "repairCoordination": "Onarım koordinasyonu",
+    "substituteRentalVehicle": "İkame kiralık araç",
+    "fileReview": "Dosya incelemesi",
+    "deductionReason": "Kesinti gerekçesi",
+    "financialSummary": "Finansal özet",
+    "paymentInformation": "Ödeme bilgisi",
+    "closed": "Kapatıldı"
+  },
+  "status": {
+    "completed": "Tamamlandı",
+    "inProgress": "Devam ediyor",
+    "pending": "Beklemede",
+    "reportCompleted": "Rapor tamamlandı"
+  },
+  "docAnalyzer": {
+    "title": "Yapay zekâ ile belge kontrolü",
+    "subtitle": "Yüklemenizi sigorta sistemine iletilmeden önce kontrol eder.",
+    "chooseFile": "Dosya seç",
+    "analyzing": "İnceleniyor…",
+    "accepted": "Sonuç: Kabul edildi",
+    "rejected": "Sonuç: Dikkat gerekli",
+    "feedbackAccepted": "Dosya uygun görünüyor: adı meslek/belgesi olduğunu düşündürüyor ve PDF formatında.",
+    "feedbackRejected": "Bu dosya adından meslek belgenizi doğrulayamadık. Lütfen içeriği anlatan bir dosya adı seçin veya düzenli bir PDF ile yeniden deneyin."
+  },
+  "apiActions": {
+    "uploadOccupationalCertificate": "Meslek belgesi yükleyin"
+  },
+  "aiExplanation": {
+    "towingService": "Aracınız belirlenen noktaya çekildi veya taşındı. Bu aşamada sigortacı, alım bilgilerini ve onarım ya da ekspertiz takvimini doğrular.",
+    "claimNotification": "Talep resmen kayda geçer. Bildirim şekli, hasar nedeni ve taraflar kaydedilir; dosya ekspertiz ve onarım ortaklarına yönlendirilir.",
+    "appraisal": "Eksper hasar ve onarım kapsamını değerlendirir. Rapor; maliyet tahmini, onarım yetkisi ve varsa kesintilerin dayanağıdır.",
+    "repairCoordination": "Onarım ağı teminat ve sürelerle uyumludur. Randevu veya servis süreci için iletişim numaraları sağlanır.",
+    "substituteRentalVehicle": "Teminat kapsamındaysa, onaylı süre için ikame araç sağlanabilir. Süre aşımında ek ücret doğabilir.",
+    "fileReview": "Sigorta uzmanları ödeme veya kapanış öncesi belge ve kelepçeleri inceler; bu aşamada ek evrak istenebilir.",
+    "deductionReason": "Kesintiler poliçe muafiyeti, amortisman veya eksik evrak (örneğin meslek belgesi) nedeniyle oluşabilir. Gecikme yaşamamak için talep edilenleri yükleyin.",
+    "financialSummary": "Hasar dışı tutarlar ve mahsuplaşma, ödeme planlanmadan veya iade edilmeden özetlenir.",
+    "paymentInformation": "Kim ne kadar ödeme alır, IBAN ve iade düzeltmesi gibi notlar burada görünür.",
+    "closed": "Ödemeler ve evrak tamamlandığında talep sonlanmış sayılır.",
+    "fallback": "{{title}} adımı talebinizde önemli bir aşamadır. “{{status}}” bilgisi bu aşamanın güncel durumunu gösterir."
+  },
+  "assistant": {
+    "title": "Talep asistanı",
+    "subtitle": "7/24 talebiniz hakkında yanıt verir; karmaşık konuları kısa ve net özetler.",
+    "welcome": "Merhaba, ClaimFlow talep asistanıyım. Talebinizin güncel durumu, süreleri, istenen belgeleri, kesinti ve ödeme bilgileri hakkında sorularınızı yazabilirsiniz.",
+    "placeholder": "Talebiniz hakkında sorun…",
+    "send": "Gönder",
+    "thinking": "Yazıyor…",
+    "openChat": "Asistanı aç",
+    "closeChat": "Kapat",
+    "fabLabel": "Talep asistanını aç",
+    "quickSuggestionsTitle": "Önerilen sorular",
+    "quickSuggestion1": "Talebim şu anda hangi aşamada?",
+    "quickSuggestion2": "Tahmini olarak ne kadar sürecek?",
+    "quickSuggestion3": "Hangi belgeleri yüklemem gerekiyor?",
+    "quickSuggestion4": "Kesinti tutarları nasıl oluştu?",
+    "quickSuggestion5": "Ödemem ne zaman yapılacak?",
+    "quickSuggestion6": "Talep referans numaramı nerede görürüm?",
+    "replies": {
+      "greeting": "Merhaba — size yardımcı olmaktan memnuniyet duyarım. Talebinizin hangi aşamada olduğunu, sıradaki belgeleri veya süre ve ödemelerle ilgili sorularınızı yazabilirsiniz.",
+      "status": "En güncel görünüm üstteki “Güncel durum” ve “Tahmini kalan süre” kartlarında yer alır. Zaman çizelgesinde tamamlanan ve bekleyen tüm adımları görebilirsiniz.",
+      "time": "“Tahmini kalan süre” kartı, güncel iş yüküne göre bir öngörüdür. Ek evrak talebi veya inceleme sırası değişirse süre güncellenebilir.",
+      "document": "İstenen belge varsa (örneğin meslek belgesi), ilgili adımdaki yükleme alanından PDF veya görüntü ekleyebilirsiniz. Dosya adının net olması incelemeyi hızlandırır.",
+      "deduction": "Kesintiler genellikle poliçe muafiyeti, amortisman veya eksik evrak kaynaklı olabilir. Tutarlar ilgili adım kartında ve poliçe koşullarınıza göre güncellenir.",
+      "payment": "Ödeme bilgisi kartında alıcı adı, IBAN, tutar ve ek notlar gösterilir. Güncelleme olduğunda bu alan yenilenir.",
+      "reference": "Talep referans numaranız sayfanın üst kısmındaki etikette yer alır; iletişimlerinizde bu numarayı kullanın.",
+      "default": "Sorunuzu daha iyi yönlendirebilmem için özet kartlarına ve zaman çizelgesine göz atın. Örneğin durum, süre, belge, kesinti veya ödeme kelimeleriyle yeniden sorabilirsiniz."
+    }
+  }
+}
